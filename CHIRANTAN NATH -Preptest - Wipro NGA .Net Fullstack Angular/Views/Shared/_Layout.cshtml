@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Login App</title>
+</head>
+<body>
+    <div>
+        <a asp-controller="Account" asp-action="Login">Login</a> |
+        <a asp-controller="Account" asp-action="Logout">Logout</a>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
